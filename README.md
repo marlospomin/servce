@@ -11,20 +11,24 @@ Empty.
 ### Scope
 
 * Minimal, Clean and Modern.
-* For Photographers.
-* Grayscale.
+* For Professional Photographers.
+* Grayscale or Desat Look.
 
 ### Tech
 
-* Boostrap 4.
+* Boostrap 4 Beta.
 * Sass.
 * jQuery.
-* Iconic.
+* Iconic Icons.
 * Animate.css.
-* Isotope.js.
-* WoW.js.
+* Isotope.js (Alternative).
+* WoW.js (Alternative).
 * Smooth-Scroll.js.
-* Lightbox TBDefined.
+* Fluidbox.
+
+### Resources
+
+* Unsplash
 
 ## Usage
 
