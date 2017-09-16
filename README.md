@@ -30,6 +30,14 @@ Empty.
 
 * Unsplash
 
+### Color Scheme
+
+* b0bfbf
+* 757f7f
+* ebffff
+* 3b4040
+* d3e5e5
+
 ## Usage
 
 First install the dependencies if you wish to compile and watch SASS files, to do that use the following commands:
