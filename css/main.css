@@ -1,0 +1,40 @@
+.jumbotron {
+  height: 100vh;
+  color: #757f7f;
+  background-color: #3b4040; }
+
+.jumbotron .container h1 {
+  color: #ebffff; }
+
+.jumbotron .container p {
+  color: #d3e5e5; }
+
+.about {
+  background-color: #b0bfbf; }
+
+.about h1 {
+  color: #ebffff; }
+
+.about .container {
+  color: #ebffff; }
+
+.portfolio {
+  background-color: #d3e5e5; }
+
+.portfolio h1 {
+  color: #757f7f; }
+
+.portfolio .container {
+  min-height: 200px; }
+
+.blog {
+  background-color: #b0bfbf; }
+
+.blog h1 {
+  color: #ebffff; }
+
+.contact {
+  background-color: #d3e5e5; }
+
+.contact h1 {
+  color: #757f7f; }
