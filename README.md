@@ -32,6 +32,8 @@ Empty.
 
 ### Color Scheme
 
+*Might change later*
+
 * b0bfbf
 * 757f7f
 * ebffff
@@ -61,7 +63,7 @@ Developer: [vednoc](https://github.com/vednoc)
 
 ## Credits
 
-Empty.
+Images: [Unsplash ](https://unsplash.com)
 
 ## License
 
