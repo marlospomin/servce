@@ -1,12 +1,25 @@
 // Colors
 
-$gray-lighter: #ebffff;
-$gray-light: #d3e5e5;
-$gray: #b0bfbf;
-$gray-dark: #757f7f;
-$gray-darker: #3b4040;
+$base-dark: #030303;
+$base-light: #f7f7f7;
+
+$gray-lighter: #f5ffff;
+$gray-light: #dce5e5;
+$gray: #b8bfbf;
+$gray-dark: #7a7f7f;
+$gray-darker: #3d4040;
 
 // Typography
 
 $typo-primary: "Raleway", sans-serif;
 $typo-secondary: "Lora", serif;
+
+// Navbar
+
+$nav-color-primary: transparent;
+$nav-color-secondary: $base-dark;
+
+// Mixins
+
+$animation-delay: 0.3s;
+$animation-type: ease-in-out;
