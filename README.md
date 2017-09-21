@@ -25,6 +25,8 @@ Empty.
 * WoW.js (Alternative).
 * Smooth-Scroll.js.
 * Fluidbox.
+* Lazyload.
+* CSS Preloader.
 
 ### Resources
 
