@@ -1,0 +1,19 @@
+// Small devices
+@media (min-width: 576px) {}
+
+// Medium devices
+@media (min-width: 768px) {
+  .navbar {
+    height: 6rem;
+  }
+  
+  .shrink {
+    height: 5rem;
+  }
+}
+
+// Large devices
+@media (min-width: 992px) {}
+
+// Extra large devices
+@media (min-width: 1200px) {}
