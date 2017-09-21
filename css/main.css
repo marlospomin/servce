@@ -18,5 +18,30 @@ strong,
 .btn {
   font-family: "Raleway", sans-serif; }
 
+.navbar {
+  background-color: transparent;
+  letter-spacing: .05rem; }
+  .navbar .navbar-brand {
+    letter-spacing: .08rem;
+    font-size: 1.5rem; }
+  .navbar .navbar-nav {
+    font-size: .9rem; }
+
+.shrink {
+  background-color: #030303;
+  opacity: .9; }
+
+.navbar,
+.shrink {
+  transition: all 0.3s ease-in-out; }
+
 .jumbotron {
-  background-color: #3b4040; }
+  height: 100vh;
+  padding-top: 25vh;
+  background-color: #7a7f7f; }
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 6rem; }
+  .shrink {
+    height: 5rem; } }
