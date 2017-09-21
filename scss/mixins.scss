@@ -1,0 +1,3 @@
+@mixin animation {
+  transition: all $animation-delay $animation-type;
+}
