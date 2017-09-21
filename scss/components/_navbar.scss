@@ -1,0 +1,23 @@
+.navbar {
+  background-color: $nav-color-primary;
+  letter-spacing: .05rem;
+  
+  .navbar-brand {
+    letter-spacing: .08rem;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    font-size: .9rem;
+  }
+}
+
+.shrink {
+  background-color: $nav-color-secondary;
+  opacity: .9;
+}
+
+.navbar,
+.shrink {
+  @include animation;
+}
