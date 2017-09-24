@@ -19,5 +19,5 @@
 
 .navbar,
 .shrink {
-  @include animation;
+  @include animation($animation-delay, $animation-type);
 }
