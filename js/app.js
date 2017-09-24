@@ -1,6 +1,7 @@
 (function () {
+  // Navbar animation
   $(window).scroll(function () {
-    var distanceY = window.pageYOffset || $(document).scrollTop(),
+    const distanceY = window.pageYOffset || $(document).scrollTop(),
       shrinkOn = 100;
 
     if (distanceY > shrinkOn) {
@@ -9,5 +10,4 @@
       $('.navbar').removeClass('shrink');
     }
   });
-
 })();
