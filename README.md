@@ -21,10 +21,10 @@ Empty.
 * jQuery.
 * Iconic Icons.
 * Animate.css.
-* Isotope.js (Alternative).
+* Isotope.js (Alternative) - Pure CSS/No Filtering.
 * WoW.js (Alternative).
 * Smooth-Scroll.js.
-* Fluidbox.
+* Fluidbox (Rework).
 * Lazyload.
 * CSS Preloader.
 
