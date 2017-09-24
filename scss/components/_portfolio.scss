@@ -1,0 +1,18 @@
+.portfolio {
+  // Pictures must be at least 700px wide
+  .grid {
+    column-count: $grid-column-amount;
+    column-width: $grid-column-size;
+    column-gap: $grid-gap-size;
+    
+    .grid-item {
+      display: inline-block;
+      cursor: pointer;
+      
+      &:hover {
+        opacity: 0.9;
+        @include animation($animation-delay, $animation-type, opacity);
+      }
+    }
+  }
+}

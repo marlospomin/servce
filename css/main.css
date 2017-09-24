@@ -40,6 +40,17 @@ strong,
   padding-top: 25vh;
   background-color: #7a7f7f; }
 
+.portfolio .grid {
+  column-count: 2;
+  column-width: 23rem;
+  column-gap: 1rem; }
+  .portfolio .grid .grid-item {
+    display: inline-block;
+    cursor: pointer; }
+    .portfolio .grid .grid-item:hover {
+      opacity: 0.9;
+      transition: opacity 0.3s ease-in-out; }
+
 @media (min-width: 768px) {
   .navbar {
     height: 6rem; }
