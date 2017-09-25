@@ -2,4 +2,10 @@
   height: 100vh;
   padding-top: 25vh;
   background-color: $gray-dark;
+  // Fixes margin between jumbotron and about section.
+  margin-bottom: 0;
+
+  .container {
+    color: $gray-lighter;
+  }
 }

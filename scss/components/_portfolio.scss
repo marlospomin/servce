@@ -1,20 +1,32 @@
 .portfolio {
+  background-color: $gray-lighter;
+
+  h1 {
+    color: $gray-darker;
+  }
+
   // Pictures must be at least 700px wide
   .grid {
     column-count: $grid-column-amount;
     column-width: $grid-column-size;
     column-gap: $grid-gap-size;
-    
+
     .grid-item {
       display: inline-block;
       cursor: pointer;
-      
+
       &:hover {
         opacity: 0.95;
         @include animation($animation-delay, $animation-type, opacity);
       }
-      
+
       @include animation-fade-in(fadeIn, $animation-delay, $animation-type, forwards)
     }
   }
+
+  // Fixes margin between portfolio and blog section.
+  .my-4 {
+    margin-bottom: 0 !important;
+  }
+
 }
