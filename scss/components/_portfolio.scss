@@ -10,8 +10,25 @@
       cursor: pointer;
       
       &:hover {
-        opacity: 0.9;
+        opacity: 0.95;
         @include animation($animation-delay, $animation-type, opacity);
+      }
+      
+      // Refactor this later
+      .fade-in {
+        animation-name: fadeIn;
+        animation-duration: $animation-delay + .6s;
+        animation-timing-function: $animation-type;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
       }
     }
   }
