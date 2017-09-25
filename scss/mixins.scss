@@ -1,3 +1,16 @@
 @mixin animation($animation-delay, $animation-type, $animation-property: all) {
   transition: $animation-property $animation-delay $animation-type;
 }
+
+@mixin animation-fade-in($animation-name, $animation-delay, $animation-type, $animation-mode) {
+  animation: $animation-delay + .6s $animation-type $animation-mode $animation-name;
+  
+  @keyframes $animation-name {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

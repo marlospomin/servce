@@ -14,22 +14,7 @@
         @include animation($animation-delay, $animation-type, opacity);
       }
       
-      // Refactor this later
-      .fade-in {
-        animation-name: fadeIn;
-        animation-duration: $animation-delay + .6s;
-        animation-timing-function: $animation-type;
-        animation-fill-mode: forwards;
-      }
-      
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
+      @include animation-fade-in(fadeIn, $animation-delay, $animation-type, forwards)
     }
   }
 }
