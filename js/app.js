@@ -10,4 +10,12 @@
       $('.navbar').removeClass('shrink');
     }
   });
+
+  // Fluidbox instance
+  $('.grid-item').fluidbox({
+    viewportFill: 0.79
+  });
+
+  // Lazyload options
+  // tbdefined
 })();
