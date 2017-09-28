@@ -1,46 +1,10 @@
 # Servce
 
-More info should be added soon!
+A premium front-end template designed exclusively for professional photographers.
 
 ## About
 
-Empty.
-
-## Roadmap
-
-### Scope
-
-* Minimal, Clean and Modern.
-* For Professional Photographers.
-* Grayscale or Desat Look.
-
-### Tech
-
-* Boostrap 4 Beta.
-* Sass.
-* jQuery.
-* Iconic Icons.
-* Animate.css.
-* Isotope.js (Alternative) - Pure CSS/No Filtering.
-* WoW.js (Alternative).
-* Smooth-Scroll.js.
-* Fluidbox (Rework).
-* Lazyload.
-* CSS Preloader.
-
-### Resources
-
-* Unsplash
-
-### Color Scheme
-
-*Might change later*
-
-* b0bfbf
-* 757f7f
-* ebffff
-* 3b4040
-* d3e5e5
+Serve is a premium, clean and modern front-end template designed with love for professional photographers to use. This project took a lot of time to complete and if you made to this page we are glad to have you. We will be updating this repo regularly as we think of new content to be added, that also includes color schemes, variations and etc.
 
 ## Usage
 
@@ -59,13 +23,12 @@ If you feel like we missed something just let us know! Make a pull request or op
 
 ## Team
 
-Developer: [marlospomin](https://github.com/marlospomin)
-
+Main Developer: [marlospomin](https://github.com/marlospomin)
 Developer: [vednoc](https://github.com/vednoc)
 
 ## Credits
 
-Images: [Unsplash ](https://unsplash.com)
+Images: [Unsplash](https://unsplash.com)
 
 ## License
 
