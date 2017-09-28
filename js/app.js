@@ -13,6 +13,7 @@
 
   // Fluidbox instance
   $('.grid-item').fluidbox({
+    stackIndex: 99,
     viewportFill: 0.79
   });
 
