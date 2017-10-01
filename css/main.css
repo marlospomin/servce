@@ -38,7 +38,7 @@ strong,
 .jumbotron {
   height: 100vh;
   padding-top: 25vh;
-  background-color: #7a7f7f; }
+  background-color: #ff7f7f; }
 
 .portfolio .grid {
   column-count: 3;
@@ -54,6 +54,51 @@ strong,
     opacity: 0; }
   to {
     opacity: 1; } }
+
+.footer {
+  color: #f7f7f7;
+  background-color: #3d4040; }
+  .footer hr {
+    background-color: #7a7f7f; }
+  .footer .description {
+    font-size: .85rem; }
+  .footer .social-icons a {
+    color: #dce5e5; }
+    .footer .social-icons a:hover {
+      color: #b8bfbf; }
+  .footer .popular-posts .h6 {
+    font-size: .9rem; }
+    .footer .popular-posts .h6:hover {
+      color: #7a7f7f;
+      text-decoration: none; }
+  .footer .popular-posts span {
+    font-size: .85rem; }
+    .footer .popular-posts span .post-author {
+      color: #b8bfbf; }
+      .footer .popular-posts span .post-author:hover {
+        color: #dce5e5;
+        text-decoration: none; }
+  .footer .featured-work .grid {
+    column-count: 5;
+    column-width: 2rem;
+    column-gap: 1rem; }
+  .footer .contact .contact-info {
+    width: 0 auto;
+    overflow: hidden; }
+    .footer .contact .contact-info span {
+      color: #b8bfbf; }
+    .footer .contact .contact-info a {
+      color: #b8bfbf; }
+      .footer .contact .contact-info a:hover {
+        color: #dce5e5;
+        text-decoration: none; }
+  .footer .sub-footer {
+    font-size: .85rem; }
+    .footer .sub-footer .back-to-top {
+      color: #b8bfbf; }
+      .footer .sub-footer .back-to-top:hover {
+        color: #dce5e5;
+        text-decoration: none; }
 
 @media (max-width: 575px) {
   .d-sm-hidden {
