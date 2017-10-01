@@ -1,6 +1,6 @@
 # Servce
 
-A premium front-end template designed exclusively for professional photographers.
+An incomplete "wanna be" premium front-end template designed exclusively for professional photographers.
 
 ## About
 
@@ -24,6 +24,7 @@ If you feel like we missed something just let us know! Make a pull request or op
 ## Team
 
 Main Developer: [marlospomin](https://github.com/marlospomin)
+
 Developer: [vednoc](https://github.com/vednoc)
 
 ## Credits
