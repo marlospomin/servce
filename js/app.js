@@ -18,5 +18,4 @@
   });
 
   // Lazyload options
-  // tbdefined
 })();
