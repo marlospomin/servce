@@ -1,0 +1,91 @@
+.footer {
+  color: $base-light;
+  background-color: $gray-darker;
+
+  hr {
+    background-color: $gray-dark;
+  }
+
+  .description {
+    font-size: .85rem;
+  }
+
+  .social-icons {
+
+    a {
+      color: $gray-light;
+
+      &:hover {
+        color: $gray;
+      }
+    }
+  }
+
+  .popular-posts {
+
+    .h6 {
+      font-size: .9rem;
+
+      &:hover {
+        color: $gray-dark;
+        text-decoration: none;
+      }
+    }
+
+    span {
+      font-size: .85rem;
+
+      .post-author {
+        color: $gray;
+
+        &:hover {
+          color: $gray-light;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .featured-work {
+
+    .grid {
+      column-count: 5;
+      column-width: 2rem;
+      column-gap: 1rem;
+    }
+  }
+
+  .contact {
+
+    .contact-info {
+      width: 0 auto;
+      overflow: hidden;
+
+      span {
+        color: $gray;
+      }
+
+      a {
+        color: $gray;
+
+        &:hover {
+          color: $gray-light;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .sub-footer {
+    font-size: .85rem;
+
+    .back-to-top {
+      color: $gray;
+
+      &:hover {
+        color: $gray-light;
+        text-decoration: none;
+      }
+    }
+  }
+}
