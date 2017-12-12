@@ -1,6 +1,17 @@
-@import "variables";
-@import "mixins";
-@import "resets";
-@import "global";
-@import "styles";
-@import "queries";
+// Core
+@import "core/variables";
+@import "core/resets";
+@import "core/global";
+@import "core/queries";
+
+// Utils
+@import "utils/mixins";
+
+// Components
+@import "components/navbar";
+@import "components/jumbotron";
+@import "components/about";
+@import "components/portfolio";
+@import "components/blog";
+@import "components/contact";
+@import "components/footer";
