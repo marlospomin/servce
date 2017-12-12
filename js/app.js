@@ -1,21 +1,27 @@
-(function () {
-  // Navbar animation
-  $(window).scroll(function () {
-    const distanceY = window.pageYOffset || $(document).scrollTop(),
-      shrinkOn = 100;
+// Get the navbar
+const navbar = document.querySelector('header');
+// Shrink when the user scrolled 100px
+const shrinkOn = 100;
 
+window.addEventListener('scroll', () => {
+  // Track scroll position
+  let distanceY = window.scrollY;
+
+  window.requestAnimationFrame(() => {
+    // If the user scrolled more than the treshold, add class
     if (distanceY > shrinkOn) {
-      $('.navbar').addClass('shrink');
+      navbar.classList.add('shrink');
     } else {
-      $('.navbar').removeClass('shrink');
+      navbar.classList.remove('shrink');
     }
   });
+});
 
-  // Fluidbox instance
-  $('.grid-item').fluidbox({
-    stackIndex: 99,
-    viewportFill: 0.79
-  });
+// Call smoothie for smooth scroll
+smoothie();
 
-  // Lazyload options
-})();
+// Call turtle for lazy loading
+turtle();
+
+// Call mango to zoom your images
+mango();
