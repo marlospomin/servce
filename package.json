@@ -1,12 +1,11 @@
 {
   "name": "servce",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
   "main": "js/app.js",
   "author": "Marlos Pomin",
   "license": "MIT",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
